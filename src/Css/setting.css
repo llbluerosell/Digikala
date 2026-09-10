@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: yekan;
+}
+ 
+@font-face {
+    font-family: yekan;
+    src: url('../Fonts/BYekan.ttf');
+    src: url('../Fonts/BYekan.eot');
+    src: url('../Fonts/BYekan.woff');
+    src: url('../Fonts/BYekan.woff2');
+}
+
+
+:root{
+  /* رنگ بکگراند برای سرچ */
+  --gray-color-100: #f0f1f1;
+  /* رنگ ایکن سرچ */
+  --gray-color-200: #a1a3a8;
+}
