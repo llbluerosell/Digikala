@@ -4,19 +4,37 @@
   box-sizing: border-box;
   font-family: yekan;
 }
- 
+
 @font-face {
-    font-family: yekan;
-    src: url('../Fonts/BYekan.ttf');
-    src: url('../Fonts/BYekan.eot');
-    src: url('../Fonts/BYekan.woff');
-    src: url('../Fonts/BYekan.woff2');
+  font-family: yekan;
+  src: url("../Fonts/BYekan.ttf");
+  src: url("../Fonts/BYekan.eot");
+  src: url("../Fonts/BYekan.woff");
+  src: url("../Fonts/BYekan.woff2");
 }
 
-
-:root{
+:root {
   /* رنگ بکگراند برای سرچ */
   --gray-color-100: #f0f1f1;
   /* رنگ ایکن سرچ */
   --gray-color-200: #a1a3a8;
+  /* line رنگ */
+  --gray-color-300: #e0e0e2;
+  /* رنگ ایکن نوتیف */
+  --dark-color-50: #424750;
+  /* signin متن */
+  --dark-color-100: #0c0c0c;
+  /* menu text */
+  --dark-color-150: #62666d;
+  /* city btn bg */
+  --orange-color-100: #f57f1712;
+  /* city text and icon */
+  --orange-color-200: #f57f17;
+}
+
+.line {
+  width: 1px;
+  height: 24px;
+  margin: 0px 12px;
+  background-color: var(--gray-color-300);
 }
