@@ -20,16 +20,29 @@
   --gray-color-200: #a1a3a8;
   /* line رنگ */
   --gray-color-300: #e0e0e2;
+  /* oldprice */
+  --gray-color-400: #c0c2c5;
+
   /* رنگ ایکن نوتیف */
   --dark-color-50: #424750;
   /* signin متن */
   --dark-color-100: #0c0c0c;
   /* menu text */
   --dark-color-150: #62666d;
+  /* quicklink text */
+  --dark-color-200: #3f4064;
+  /* new price text */
+  --dark-color-250: #23254e;
+
   /* city btn bg */
   --orange-color-100: #f57f1712;
   /* city text and icon */
   --orange-color-200: #f57f17;
+
+  /* amazing bg */
+  --red-amazing-bg: #d32c4e;
+  /* discount bg */
+  --red-discount-bg: #d32f2f;
 }
 
 .line {

@@ -112,6 +112,8 @@ header {
 }
 
 .bottom {
+  width: 100%;
+  height: 40px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -175,3 +177,4 @@ header {
     }
   }
 }
+

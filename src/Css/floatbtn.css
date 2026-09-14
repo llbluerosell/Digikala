@@ -1,0 +1,13 @@
+.support {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(150deg, #7f53ef 14.63%, #2586ff 100%);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9999;
+}
