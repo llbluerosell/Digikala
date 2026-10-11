@@ -25,6 +25,8 @@
   --gray-color-400: #c0c2c5;
   /* footer sub text */
   --gray-color-500: #81858b;
+  /* down arrow and switch */
+  --gray-color-600:  #a2a2a2;
 
   /* رنگ ایکن نوتیف */
   --dark-color-50: #424750;
@@ -68,11 +70,18 @@
 
   /* green amazing bg */
   --green-color-100: #6eba29;
+  /* green amazing page card */
+  --green-color-200: #029a49;
 
   /* app dl bg */
   --blue-color-100: #3c4b6d;
   /* footer see more */
   --blue-color-200: #1672dd;
+  /* stock svg */
+  --blue-color-300: #87d3e1;
+
+  /* plus color */
+  --purple-color-100: #b12ba4;
 }
 
 .line {

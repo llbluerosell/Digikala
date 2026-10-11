@@ -96,3 +96,19 @@ var dailyswiper = new Swiper(".dailyswiper .mySwiper", {
     prevEl: ".dailyswiper .swiper-button-prev",
   },
 });
+
+var endingoffersswiper = new Swiper(".endingoffersswiper .mySwiper", {
+  slidesPerView: 7,
+  navigation: {
+    nextEl: ".endingoffersswiper .swiper-button-next",
+    prevEl: ".endingoffersswiper .swiper-button-prev",
+  },
+});
+
+var customoffersswiper = new Swiper(".customoffersswiper .mySwiper", {
+  slidesPerView: 7,
+  navigation: {
+    nextEl: ".customoffersswiper .swiper-button-next",
+    prevEl: ".customoffersswiper .swiper-button-prev",
+  },
+});
