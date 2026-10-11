@@ -15,8 +15,6 @@ var swiper1 = new Swiper(".slider1 .mySwiper", {
   },
 });
 
-
-
 var redswiper = new Swiper(" .redswiper .swiper", {
   slidesPerView: 7,
   direction: getDirection(),
@@ -36,3 +34,65 @@ function getDirection() {
 
   return direction;
 }
+
+var deliveryswiper = new Swiper(".deliveryswiper .mySwiper", {
+  slidesPerView: 7,
+  spaceBetween: 4,
+  navigation: {
+    nextEl: ".deliveryswiper .swiper-button-next",
+    prevEl: ".deliveryswiper .swiper-button-prev",
+  },
+});
+
+var greenswiper = new Swiper(".greenswiper .mySwiper", {
+  slidesPerView: 7,
+  spaceBetween: 4,
+  navigation: {
+    nextEl: ".greenswiper .swiper-button-next",
+    prevEl: ".greenswiper .swiper-button-prev",
+  },
+});
+
+var suggestionsswiper = new Swiper(".suggestionsswiper .mySwiper", {
+  slidesPerView: 7,
+  spaceBetween: 4,
+  navigation: {
+    nextEl: ".suggestionsswiper .swiper-button-next",
+    prevEl: ".suggestionsswiper .swiper-button-prev",
+  },
+});
+
+var popularbrandsswiper = new Swiper(".popularbrandsswiper .mySwiper", {
+  slidesPerView: 12,
+  navigation: {
+    nextEl: ".popularbrandsswiper .swiper-button-next",
+    prevEl: ".popularbrandsswiper .swiper-button-prev",
+  },
+});
+
+var bestsellersswiper = new Swiper(".bestsellersswiper .mySwiper", {
+  slidesPerView: 4,
+  grid: {
+    rows: 3,
+  },
+  navigation: {
+    nextEl: ".bestsellersswiper .swiper-button-next",
+    prevEl: ".bestsellersswiper .swiper-button-prev",
+  },
+});
+
+var slidermenu = new Swiper(".slidermenu .mySwiper", {
+  slidesPerView: 10,
+  navigation: {
+    nextEl: ".slidermenu .swiper-button-next",
+    prevEl: ".slidermenu .swiper-button-prev",
+  },
+});
+
+var dailyswiper = new Swiper(".dailyswiper .mySwiper", {
+  slidesPerView: 2.5,
+  navigation: {
+    nextEl: ".dailyswiper .swiper-button-next",
+    prevEl: ".dailyswiper .swiper-button-prev",
+  },
+});

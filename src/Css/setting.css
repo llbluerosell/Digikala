@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: yekan;
+  /* scroll-behavior: smooth; */
 }
 
 @font-face {
@@ -22,6 +23,8 @@
   --gray-color-300: #e0e0e2;
   /* oldprice */
   --gray-color-400: #c0c2c5;
+  /* footer sub text */
+  --gray-color-500: #81858b;
 
   /* رنگ ایکن نوتیف */
   --dark-color-50: #424750;
@@ -39,10 +42,37 @@
   /* city text and icon */
   --orange-color-200: #f57f17;
 
-  /* amazing bg */
+  /* red amazing bg */
   --red-amazing-bg: #d32c4e;
   /* discount bg */
   --red-discount-bg: #d32f2f;
+  /* bestseller no. bg */
+  --red-number-bg: #ef4056;
+  /* time text color */
+  --red-time-text: #ef394e;
+
+  /* white */
+  --white-color-100: #ffffff;
+  /* whitesmoke */
+  --white-color-150: #f5f5f5;
+
+  /* black */
+  --black-color-100: #000000;
+
+  /* delivery bg */
+  --yellow-color-100: #fff9e5;
+  /* delivery choose address bg */
+  --yellow-color-200: #feedd0;
+  /* rating icon color */
+  --yellow-color-300: #f9bc00;
+
+  /* green amazing bg */
+  --green-color-100: #6eba29;
+
+  /* app dl bg */
+  --blue-color-100: #3c4b6d;
+  /* footer see more */
+  --blue-color-200: #1672dd;
 }
 
 .line {

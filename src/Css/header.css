@@ -1,4 +1,4 @@
-header {
+.header {
   width: 100%;
   .homebanner {
     width: 100%;
@@ -109,72 +109,81 @@ header {
       }
     }
   }
-}
-
-.bottom {
-  width: 100%;
-  height: 40px;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 16px;
-  .menuitems {
+  .bottom {
+    width: 100%;
+    height: 40px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    list-style: none;
-    .menuitem {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      padding: 0px 12px;
-      font-size: 13.5px;
-      color: var(--dark-color-150);
-      & svg {
-        fill: var(--dark-color-150);
-        width: 20px;
-        height: 20px;
-      }
-    }
-  }
-  .city {
-    .citybtn {
+    justify-content: space-between;
+    padding: 0px 16px;
+    position: sticky;
+    .menuitems {
       display: flex;
       flex-flow: row wrap;
       align-items: center;
-      border: 0;
-      border-radius: 9999px;
-      outline: none;
-      padding: 4px 12px;
-      background-color: var(--orange-color-100);
-      font-size: 13.5px;
-      gap: 5px;
-      position: relative;
-      &::after {
-        width: 100px;
-        height: 30px;
-        content: "انتخاب آدرس";
-        font-size: 13px;
-        background-color: #414b69;
-        border-radius: 4px;
-        color: whitesmoke;
-        line-height: 30px;
-        position: absolute;
-        top: calc(100% + 5px);
-        left: calc(50% - 100px / 2);
-        display: none;
+      list-style: none;
+      .menuitem {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 0px 12px;
+        font-size: 13.5px;
+        color: var(--dark-color-150);
+        cursor: pointer;
+        & svg {
+          fill: var(--dark-color-150);
+          width: 20px;
+          height: 20px;
+        }
+        & a {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          gap: 5px;
+          color: var(--dark-color-150);
+          text-decoration: none;
+        }
       }
-      &:hover::after {
-        display: block;
-      }
-      & span {
-        color: var(--orange-color-200);
-      }
-      & svg {
-        fill: var(--orange-color-200);
+    }
+    .city {
+      .citybtn {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        border: 0;
+        border-radius: 9999px;
+        outline: none;
+        padding: 4px 12px;
+        background-color: var(--orange-color-100);
+        font-size: 13.5px;
+        gap: 5px;
+        position: relative;
+        &::after {
+          width: 100px;
+          height: 30px;
+          content: "انتخاب آدرس";
+          font-size: 13px;
+          background-color: #414b69;
+          border-radius: 4px;
+          color: whitesmoke;
+          line-height: 30px;
+          position: absolute;
+          top: calc(100% + 5px);
+          left: calc(50% - 100px / 2);
+          display: none;
+          z-index: 9999;
+        }
+        &:hover::after {
+          display: block;
+        }
+        & span {
+          color: var(--orange-color-200);
+        }
+        & svg {
+          fill: var(--orange-color-200);
+        }
       }
     }
   }
 }
-

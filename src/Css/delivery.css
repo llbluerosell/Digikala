@@ -1,0 +1,185 @@
+.delivery {
+  width: calc(100% - 192px);
+  height: 405px;
+  background-color: var(--yellow-color-100);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 96px 0px;
+  border-radius: 18px;
+  .top {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    .title {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      padding: 0px 16px;
+      /* background-color: blueviolet; */
+      & img {
+        width: 75px;
+        height: 22px;
+      }
+      & span {
+        font-size: 18px;
+      }
+    }
+    .address {
+      width: calc(100% - 32px);
+      background-color: var(--yellow-color-200);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      margin: 12px 16px 10px;
+      border-radius: 10px;
+      .right {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 5px;
+        font-size: 15px;
+        & svg {
+          width: 20px;
+          height: 20px;
+          fill: var(--orange-color-200);
+        }
+      }
+      .left {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 4px;
+        color: var(--orange-color-200);
+        fill: var(--orange-color-200);
+      }
+    }
+  }
+  .bottom {
+    width: 100%;
+    height: 70%;
+    padding: 0px 20px;
+
+    /* background-color: aqua; */
+
+    .deliveryswiper {
+      width: 100%;
+      height: 100%;
+      /* background-color: cadetblue; */
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        background: var(--white-color-100);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+        margin-left: 4px;
+
+        & img {
+          width: 164px;
+          height: 164px;
+          object-fit: cover;
+        }
+        .imgdescription {
+          width: 100%;
+          padding: 4px 8px 8px;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          gap: 4px;
+          /* background-color: aqua; */
+
+          & p {
+            width: 100%;
+            color: var(--dark-color-50);
+            font-size: 15.5px;
+            text-align: center;
+            /* background-color: aquamarine; */
+            /* این قسمت از chatgpt پرسیدم که بیشتر از دو خط نشه متن */
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+
+          .price {
+            width: 100%;
+            display: flex;
+            flex-flow: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            gap: 2px;
+            /* background-color: blue; */
+            .oldprice-discount {
+              display: flex;
+              flex-flow: row nowrap;
+              align-items: center;
+              gap: 5px;
+              /* background-color: violet; */
+              .oldprice {
+                color: var(--gray-color-400);
+                text-decoration: line-through;
+                font-size: 12px;
+              }
+              .discount {
+                width: 34px;
+                height: 16px;
+                background-color: var(--red-discount-bg);
+                border-radius: 8px;
+                color: var(--white-color-100);
+                font-size: 13px;
+                line-height: 16px;
+                text-align: center;
+              }
+            }
+            .newprice-toman {
+              display: flex;
+              flex-flow: row nowrap;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 5px;
+              /* background-color: burlywood; */
+              .newprice {
+                color: var(--dark-color-250);
+                font-size: 18px;
+              }
+              & svg {
+                width: 18px;
+                height: 18px;
+              }
+            }
+          }
+        }
+        .seeall {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          justify-content: center;
+          color: var(--dark-color-200);
+          font-size: 14px;
+          /* background-color: aliceblue; */
+          & svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--dark-color-200);
+          }
+        }
+      }
+    }
+  }
+}
+

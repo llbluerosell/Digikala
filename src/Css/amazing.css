@@ -35,7 +35,7 @@
       .time {
         width: 26px;
         height: 26px;
-        background-color: white;
+        background-color: var(--white-color-100);
         border-radius: 3px;
         display: flex;
         flex-flow: row nowrap;
@@ -45,10 +45,9 @@
         font-size: 15px;
       }
       .colon {
-        color: white;
+        color: var(--white-color-100);
       }
     }
-
     .see-all {
       width: 110px;
       height: 32px;
@@ -57,10 +56,11 @@
       align-items: center;
       justify-content: center;
       gap: 5px;
-      background-color: whitesmoke;
+      background-color: var(--white-color-150);
       border-radius: 3px;
       color: var(--dark-color-100);
       font-size: 15px;
+      cursor: pointer;
       & svg {
         width: 16px;
         height: 16px;
@@ -86,7 +86,7 @@
         /* background-color: blue; */
       }
       .swiper-slide {
-        background: #ffffff;
+        background: var(--white-color-100);
         display: flex;
         flex-flow: column nowrap;
         justify-content: flex-start;
@@ -145,7 +145,7 @@
                 height: 16px;
                 background-color: var(--red-discount-bg);
                 border-radius: 8px;
-                color: white;
+                color: var(--white-color-100);
                 font-size: 13px;
                 line-height: 16px;
                 text-align: center;
@@ -196,6 +196,198 @@
         .swiper-button-prev {
           left: 20px;
           transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}
+
+.green-amazing {
+  width: calc(100% - 192px);
+  height: 314px;
+  display: flex;
+  align-items: center;
+  background-color: var(--green-color-100);
+  margin: 24px 96px 0px;
+  border-radius: 12px;
+  overflow: hidden;
+
+  .right-green {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px 20px 20px 20px;
+
+    .amazingpercentlogo {
+      width: 64px;
+      height: 64px;
+    }
+    .amazingtextlogo {
+      width: 126px;
+      height: 28px;
+    }
+    .amazingcountdown {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      gap: 5px;
+
+      .time {
+        width: 26px;
+        height: 26px;
+        background-color: white;
+        border-radius: 3px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        color: var(--dark-color-100);
+        font-size: 15px;
+      }
+      .colon {
+        color: white;
+      }
+    }
+    .see-all {
+      width: 110px;
+      height: 32px;
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      background-color: whitesmoke;
+      border-radius: 3px;
+      color: var(--dark-color-100);
+      font-size: 15px;
+      cursor: pointer;
+      & svg {
+        width: 16px;
+        height: 16px;
+        fill: var(--dark-color-100);
+      }
+    }
+  }
+
+  .left-green {
+    width: 85%;
+    height: 100%;
+    padding: 20px 0px;
+    /* background-color: antiquewhite; */
+    cursor: pointer;
+
+    .greenswiper {
+      width: 100%;
+      height: 100%;
+      /* background-color: aqua; */
+      .swiper {
+        width: 100%;
+        height: 100%;
+        /* background-color: blue; */
+      }
+      .swiper-slide {
+        background: var(--white-color-100);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: hidden;
+        margin-left: 4px;
+
+        & img {
+          width: 164px;
+          height: 164px;
+          object-fit: cover;
+        }
+        .imgdescription {
+          width: 100%;
+          padding: 4px 8px 8px;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          gap: 4px;
+          /* background-color: aqua; */
+
+          & p {
+            width: 100%;
+            color: var(--dark-color-50);
+            font-size: 15.5px;
+            text-align: center;
+            /* background-color: aquamarine; */
+            /* این قسمت از chatgpt پرسیدم که بیشتر از دو خط نشه متن */
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+
+          .price {
+            width: 100%;
+            display: flex;
+            flex-flow: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            gap: 2px;
+            /* background-color: blue; */
+            .oldprice-discount {
+              display: flex;
+              flex-flow: row nowrap;
+              align-items: center;
+              gap: 5px;
+              /* background-color: violet; */
+              .oldprice {
+                color: var(--gray-color-400);
+                text-decoration: line-through;
+                font-size: 12px;
+              }
+              .discount {
+                width: 34px;
+                height: 16px;
+                background-color: var(--red-discount-bg);
+                border-radius: 8px;
+                color: var(--white-color-100);
+                font-size: 13px;
+                line-height: 16px;
+                text-align: center;
+              }
+            }
+            .newprice-toman {
+              display: flex;
+              flex-flow: row nowrap;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 5px;
+              /* background-color: burlywood; */
+              .newprice {
+                color: var(--dark-color-250);
+                font-size: 18px;
+              }
+              & svg {
+                width: 18px;
+                height: 18px;
+              }
+            }
+          }
+        }
+        .seeall {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          justify-content: center;
+          color: var(--dark-color-200);
+          font-size: 14px;
+          /* background-color: aliceblue; */
+          & svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--dark-color-200);
+          }
         }
       }
     }
