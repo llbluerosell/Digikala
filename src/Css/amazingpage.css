@@ -1048,8 +1048,12 @@
       margin-top: 60px;
       display: flex;
       flex-flow: column nowrap;
+      justify-content: flex-start;
       border: 1px solid var(--gray-color-300);
       border-radius: 10px;
+      /* chatgpt--height */
+      height: fit-content;
+      overflow: hidden;
       /* background-color: skyblue; */
       .h5 {
         color: var(--dark-color-200);
@@ -1060,7 +1064,6 @@
       .filter-item {
         display: flex;
         flex-flow: row nowrap;
-        align-items: center;
         justify-content: space-between;
         padding: 12px 20px;
         margin-bottom: 8px;
@@ -1079,6 +1082,9 @@
           width: 40px;
           height: 20px;
           fill: var(--gray-color-600);
+        }
+        &:last-child {
+          margin-bottom: 0px;
         }
       }
     }
