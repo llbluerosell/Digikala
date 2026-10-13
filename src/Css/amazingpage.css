@@ -15,13 +15,12 @@
     display: flex;
     justify-content: space-between;
     .logo-search {
-      width: 1244px;
       height: 44px;
       display: flex;
       flex-flow: row wrap;
       align-items: center;
       gap: 20px;
-      & a {
+      .logo {
         display: flex;
         align-items: center;
         & svg {
@@ -61,11 +60,12 @@
       }
     }
     .handle {
-      width: 251px;
+      width: fit-content;
       height: 44px;
       display: flex;
       flex-flow: row wrap;
       align-items: center;
+      /* background-color: blueviolet; */
       .notification-signin {
         display: flex;
         flex-flow: row wrap;
@@ -106,6 +106,18 @@
         width: 24px;
         height: 24px;
         fill: var(--dark-color-50) !important;
+      }
+      .themebtn {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        border: none;
+        background-color: unset;
+        & svg {
+          width: 22px;
+          height: 22px;
+          fill: var(--dark-color-50);
+        }
       }
     }
   }

@@ -163,6 +163,7 @@
                 font-size: 18px;
               }
               & svg {
+                fill: var(--dark-color-250) !important;
                 width: 18px;
                 height: 18px;
               }
@@ -369,6 +370,7 @@
               & svg {
                 width: 18px;
                 height: 18px;
+                fill: var(--dark-color-250) !important;
               }
             }
           }

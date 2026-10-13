@@ -5,7 +5,9 @@
   font-family: yekan;
   /* scroll-behavior: smooth; */
 }
-
+.body{
+  background-color: var(--white-color-100);
+}
 @font-face {
   font-family: yekan;
   src: url("../Fonts/BYekan.ttf");
@@ -82,6 +84,56 @@
 
   /* plus color */
   --purple-color-100: #b12ba4;
+}
+.darkmode{
+  /* Dark Mode */
+
+  /* Backgrounds */
+  --gray-color-100: #2b2b2b;
+  --gray-color-200: #a1a3a8;
+  --gray-color-300: #444444;
+  --gray-color-400: #777777;
+  --gray-color-500: #b0b0b0;
+  --gray-color-600: #a2a2a2;
+
+  /* Text and icons */
+  --dark-color-50: #e0e0e0;
+  --dark-color-100: #f5f5f5;
+  --dark-color-150: #d0d0d0;
+  --dark-color-200: #b5b5d0;
+  --dark-color-250: #e0e0f5;
+
+  /* Address button */
+  --orange-color-100: #3b3025;
+  --orange-color-200: #ff9b38;
+
+  /* Amazing offers */
+  --red-amazing-bg: #d32c4e;
+  --red-discount-bg: #d32f2f;
+  --red-number-bg: #ef4056;
+  --red-time-text: #ff6677;
+
+  /* White and black */
+  --white-color-100: #2b2b2b;
+  --white-color-150: #353535;
+  --black-color-100: #ffffff;
+
+  /* Delivery */
+  --yellow-color-100: #353127;
+  --yellow-color-200: #49402f;
+  --yellow-color-300: #f9bc00;
+
+  /* Green */
+  --green-color-100: #6eba29;
+  --green-color-200: #029a49;
+
+  /* Blue */
+  --blue-color-100: #3c4b6d;
+  --blue-color-200: #4c9aff;
+  --blue-color-300: #87d3e1;
+
+  /* Plus */
+  --purple-color-100: #d65bc9;
 }
 
 .line {

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./src/Css/main.css" />
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
   </head>
-  <body id="topp">
+  <body id="topp" class="body">
     <!-- HEADER START -->
     <header class="header-1">
       <!-- MIDDLE START -->
@@ -76,55 +76,58 @@
         <!-- RIGHT:LOGO & SEARCH END -->
         <!-- LEFT:HANDLE BOX START -->
         <div class="handle">
-          <div class="notification-signin">
-            <div class="notification">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="24px"
-                viewBox="0 -960 960 960"
-                width="24px"
-                fill="#1f1f1f"
-              >
-                <path
-                  d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"
-                />
-              </svg>
-            </div>
-            <div class="signin">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="24px"
-                viewBox="0 -960 960 960"
-                width="24px"
-                fill="#1f1f1f"
-              >
-                <path
-                  d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z"
-                />
-              </svg>
+            <div class="notification-signin">
+              <div class="notification">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#1f1f1f"
+                >
+                  <path
+                    d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"
+                  />
+                </svg>
+              </div>
+              <div class="signin">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#1f1f1f"
+                >
+                  <path
+                    d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z"
+                  />
+                </svg>
 
-              <span class="signintext">ورود | ثبت‌نام</span>
+                <span class="signintext">ورود | ثبت‌نام</span>
+              </div>
             </div>
+            <div class="line"></div>
+            <div class="cart">
+              <svg
+                style="
+                  width: 24px;
+                  height: 24px;
+                  fill: var(--color-icon-high-emphasis);
+                "
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </div>
+            <button class="themebtn">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M565-395q35-35 35-85t-35-85q-35-35-85-35t-85 35q-35 35-35 85t35 85q35 35 85 35t85-35Zm-226.5 56.5Q280-397 280-480t58.5-141.5Q397-680 480-680t141.5 58.5Q680-563 680-480t-58.5 141.5Q563-280 480-280t-141.5-58.5ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+            </button>
           </div>
-          <div class="line"></div>
-          <div class="cart">
-            <svg
-              style="
-                width: 24px;
-                height: 24px;
-                fill: var(--color-icon-high-emphasis);
-              "
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </div>
-        </div>
         <!-- LEFT:HANDLE BOX End -->
       </div>
       <!-- MIDDLE END -->
@@ -2699,6 +2702,11 @@
       </div>
     </footer>
     <!-- FOOTER END -->
+         <script> 
+document.querySelector(".themebtn").addEventListener("click", function(){
+      document.querySelector("html").classList.toggle("darkmode");
+    });
+    </script>
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
     <script type="module" src="./src/main.js"></script>
   </body>

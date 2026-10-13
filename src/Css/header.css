@@ -15,7 +15,6 @@
     display: flex;
     justify-content: space-between;
     .logo-search {
-      width: 1244px;
       height: 44px;
       display: flex;
       flex-flow: row wrap;
@@ -61,11 +60,12 @@
       }
     }
     .handle {
-      width: 251px;
+      width: fit-content;
       height: 44px;
       display: flex;
       flex-flow: row wrap;
       align-items: center;
+      /* background-color: blueviolet; */
       .notification-signin {
         display: flex;
         flex-flow: row wrap;
@@ -107,6 +107,18 @@
         height: 24px;
         fill: var(--dark-color-50) !important;
       }
+      .themebtn {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        border: none;
+        background-color: unset;
+        & svg {
+          width: 22px;
+          height: 22px;
+          fill: var(--dark-color-50);
+        }
+      }
     }
   }
   .bottom {
@@ -117,12 +129,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 16px;
-    position: sticky;
     .menuitems {
       display: flex;
       flex-flow: row wrap;
       align-items: center;
       list-style: none;
+    
       .menuitem {
         display: flex;
         align-items: center;
@@ -131,6 +143,7 @@
         font-size: 13.5px;
         color: var(--dark-color-150);
         cursor: pointer;
+        
         & svg {
           fill: var(--dark-color-150);
           width: 20px;
@@ -147,6 +160,8 @@
       }
     }
     .city {
+      position: relative;
+      z-index: 100;
       .citybtn {
         display: flex;
         flex-flow: row wrap;
@@ -159,6 +174,7 @@
         font-size: 13.5px;
         gap: 5px;
         position: relative;
+        
         &::after {
           width: 100px;
           height: 30px;
@@ -172,7 +188,7 @@
           top: calc(100% + 5px);
           left: calc(50% - 100px / 2);
           display: none;
-          z-index: 9999;
+          z-index: 99999;
         }
         &:hover::after {
           display: block;
